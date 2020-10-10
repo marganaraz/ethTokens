@@ -10,7 +10,7 @@ npm install --save-dev @nomiclabs/buidler
 ## Step 2: Create Buidler project
 
 ```sh
-npx buidler //(in your project folder)
+npx buidler
 ```
 
 ## Step 3: Install dependencies
@@ -20,11 +20,12 @@ npm install --save-dev @nomiclabs/buidler-waffle ethereum-waffle chai @nomiclabs
 ```
 
 ## Step 4: Install OpenZeppeling Contracts
-https://docs.openzeppelin.com/contracts/3.x/
 
 ```sh
 npm install @openzeppelin/contracts
 ```
+
+Docs: https://docs.openzeppelin.com/contracts/3.x/
 
 ## Step 5: Compile exaple
 
@@ -40,8 +41,8 @@ npx buidler test
 
 ## Step 7 Set vars in builder.config.js
 
-INFURA_PROJECT_ID
-RINKEBY_PRIVATE_KEY
+- INFURA_PROJECT_ID
+- RINKEBY_PRIVATE_KEY
 
 ## Step 8: Deploy in Rinkeby testnet
 
